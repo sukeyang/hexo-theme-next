@@ -99,7 +99,7 @@ menu:
   archives: /archives/ || archive
   # schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
-  commonweal: /404/ || heartbeat
+  commonweal: /404.html || heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -243,11 +243,10 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 #是否开启打赏功能
-donate: true
 # Reward
 reward_comment: 欣赏此文？求鼓励，求支持！
-#wechatpay: /images/wechatpay.jpg
-#alipay: /images/alipay.jpg
+wechatpay: /images/wechatpay.jpg
+# alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
@@ -606,7 +605,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
